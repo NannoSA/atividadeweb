@@ -71,3 +71,26 @@ section .imagem {
     border-radius: 20px;
     padding: 5px;
 }
+
+/* Consulta de mídia para telas pequenas */
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .menu a {
+        display: block;
+        padding: 10px;
+    }
+
+    section {
+        margin-left:10px;
+        margin-right: 10px;
+}
